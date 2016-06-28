@@ -1,0 +1,16 @@
+{
+  "name": "Jair",
+  "type": "library",
+  "description": "Jair MLab Server - Must get updated informations of donators",
+  "keywords": ["mdb"],
+  "homepage": "https://jair.mlab.cc/",
+  "authors": [
+    {
+      "name": "Eduardo Destruti",
+      "email": "eduardo.destruti@maquinadobem.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  }
+}
