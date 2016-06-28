@@ -5,11 +5,10 @@
 A full-stack PHP framework delivered as a C-extension
 Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
-![php-benchmark.Exemp2](https://systemsarchitectdotnet.files.wordpress.com/2013/04/php-benchmark.png)
+![php-benchmark.Exemp2](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/php-benchmark.png)
 
 
 ##Install Features to run this Phalcon Project on Linux
-
 
 
 ###Install Basics
