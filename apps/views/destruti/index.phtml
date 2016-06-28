@@ -1,1 +1,36 @@
-<?php echo $this->getContent();
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Destruti Phalcon Basic</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="<?php echo $this->config->website; ?>content/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #48D1CC;
+            color: #FFFFFF;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 24px;
+            line-height: 20px;
+        }
+        .SecureKey {
+            background-color: #FFFFFF;
+            color: #48D1CC;
+        }
+        .SecureKey:hover {
+            color: #48D1CC;
+        }
+        a:link    { color: #FFFAFA; }
+        a:visited { color: #FFFAFA; }
+        a:hover   { color: #FFFAFA; }
+        a:active  { color: #FFFAFA; }
+    </style>
+
+</head>
+<body>
+
+<?php echo $this->getContent(); ?>
+
+</body>
+</html>

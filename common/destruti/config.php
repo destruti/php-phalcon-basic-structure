@@ -9,12 +9,13 @@ if ($env == 'live') {
         'live'       => true,
         'layout'     => 'destruti',
         'website'    => 'PUT YOUR SERVER',
+        'api_url'    => 'PUT YOUR SERVER',
 
         'database' => array(
             'adapter'  => 'Mysql',
             'host'     => 'localhost',
             'username' => 'root',
-            'password' => '123DESTRUTI',
+            'password' => '',
             'name'     => 'destruti_phalcon_basic',
             'options'  => array(
                 PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'",
@@ -31,19 +32,15 @@ if ($env == 'development') {
     return new \Phalcon\Config(array(
 
         'live'       => false,
-        'layout'     => 'jair',
-        'website'    => 'http://jair.mlab.dev/',
-        'api_url'    => 'http://jair.mlab.dev/',
-
-        'keys' => array(
-            'J0gO_d@_1@m@_50' => 'juntospelascriancas'
-        ),
+        'layout'     => 'destruti',
+        'website'    => 'http://phalcon-destruti.github.dev/',
+        'api_url'    => 'http://phalcon-destruti.github.dev/',
 
         'database' => array(
             'adapter'  => 'Mysql',
             'host'     => 'localhost',
             'username' => 'root',
-            'password' => '123DESTRUTI',
+            'password' => '',
             'name'     => 'destruti_phalcon_basic',
             'options'  => array(
                 PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'",

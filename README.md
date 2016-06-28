@@ -103,11 +103,6 @@ If you need help with apache configs, go to folder "scripts/apache.conf". Its a 
         Allow from 127.0.0.0/255.0.0.0 ::1/128
     </Directory>
 
-</VirtualHost>```
+</VirtualHost>
 
-
-
-
-
-
-
+```

@@ -12,14 +12,9 @@ class log extends Component
         echo '<pre>';print_r($dumpContent);echo '</pre>';
     }
 
-    public static function jair($message)
+    public static function destruti($message)
     {
-        error_log(date('Y.m.d H:i:s').' '.var_export($message, true).PHP_EOL, 3, "/tmp/jair.log");
-    }
-
-    public static function bigdata($message)
-    {
-        error_log(date('Y.m.d H:i:s').' '.var_export($message, true).PHP_EOL, 3, "/tmp/bigdata.log");
+        error_log(date('Y.m.d H:i:s').' '.var_export($message, true).PHP_EOL, 3, "/tmp/destruti.log");
     }
 
     public static function audit($message)

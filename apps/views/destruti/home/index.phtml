@@ -1,58 +1,33 @@
-<html>
-<head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Destruti Phalcon Basic</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="<?php echo $this->config->website; ?>content/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #A0522D;
-            color: #FFFFFF;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 24px;
-            line-height: 20px;
-        }
-        .SecureKey {
-            background-color: #FFFFFF;
-            color: #A0522D;
-        }
-        .SecureKey:hover {
-            color: #A0522D;
-        }
-        a:link    { color: #FFFAFA; }
-        a:visited { color: #FFFAFA; }
-        a:hover   { color: #FFFAFA; }
-        a:active  { color: #FFFAFA; }
-    </style>
-
-</head>
-<body>
 <div class="container">
 
     <div class="col-md-12 text-center">
 
         <br />
+        <br />
+
+        <img src="<?php echo $this->config->website; ?>content/phalcon-php.png" />
+
+        <br />
         <h1>Destruti Phalcon Basic</h1>
         <h2>Server Examlple Architecture in Phalcon</h2>
 
-    </div>
+        <br />
+        <br />
 
-    <div class="col-md-12">
+        <h4>
+            <a href="https://github.com/destruti/php-phalcon-basic-structure">
+                Src at https://github.com/destruti/php-phalcon-basic-structure</h4>
+        </a>
+        </h4>
+
+        <br />
+        <br />
+        <br />
+
         <form action="/getTransfer" method="post">
-            <br /><input type="hidden" name="SecureKey" value="<?php echo $example_key; ?>">
-            <button type="submit" class="btn btn-block SecureKey">Get Transfer</button>
+            <button type="submit" class="btn btn-default SecureKey">Get Transfer</button>
         </form>
-    </div>
-
-    <div class="col-md-12 text-center">
-
-        <img src="<?php echo $this->config->website; ?>content/logo/mbSemFundo.png">
 
     </div>
 
 </div>
-
-</body>
-</html>
