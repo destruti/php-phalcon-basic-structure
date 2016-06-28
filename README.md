@@ -10,6 +10,8 @@ Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
 ##Install Features to run this Phalcon Project on Linux
 
+
+
 ###Install Basics
 > sudo apt-get update
 
@@ -21,6 +23,8 @@ Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
 > sudo mv composer.phar /usr/local/bin/composer
 
+
+
 ###Install Apache
 
 > sudo apt-get update
@@ -31,15 +35,21 @@ Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
 > sudo service apache2 restart
 
-###Install Apache
+
+
+###Install Mysql
 
 > sudo apt-get install mysql-server
 
 > sudo /usr/bin/mysql_secure_installation
 
+
+
 ###Install PHP
 
 > sudo apt-get install libapache2-mod-php5 php5-common php5-mysql php5-xmlrpc php5-curl php5-gd php5-cli php-pear php5-dev php5-imap php5-mcrypt php5-json php5-geoip php5-imagick php5-memcache php5-memcached
+
+
 
 ###Install Phalcon
 
@@ -49,15 +59,13 @@ Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
 > sudo apt-get install php5-phalcon
 
+
+
 ##Atention
-
-
-## VHOSTS ##
 
 If you need help with apache configs, go to folder "scripts/apache.conf". Its a good example to config your VHOST.
 
 ```
-#!sh
 
 <VirtualHost *:80>
         ServerAdmin eduardo@destruti.com
