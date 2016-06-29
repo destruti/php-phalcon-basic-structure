@@ -5,7 +5,26 @@
 A full-stack PHP framework delivered as a C-extension
 Its innovative architecture makes Phalcon the fastest PHP framework ever built!
 
-![php-benchmark.Exemp2](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/php-benchmark.png)
+![php-benchmark](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/php-benchmark.png)
+
+
+##The Propouse
+
+In this project, this example will try to show a different architecture (high-scalable) at Phalcon.
+
+![php-benchmark](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/source-code.png)
+
+### Request Page
+
+![php-benchmark](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/home.png)
+
+We call a different controller, and he must to deliver a php serialized Object, like this one.
+
+![php-benchmark](http://destruti.com/content/github-imgs/php-phalcon-basic-structure/result.png)
+
+
+
+
 
 
 ##Install Features to run this Phalcon Project on Linux
